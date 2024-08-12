@@ -1,12 +1,13 @@
 package memorylocation;
 
 public class Test {
-    int x;
-    static int y;
+     int x;
+     static int y;
 
     void m1() {
         x = x + 1;
         y = y + 1;
+        System.out.println(x+" "+y);
     }
 
     public static void main(String[] args) {

@@ -1,16 +1,19 @@
 // package MemoryLocation;
 
 class Demo {
-    void m1(int x, int y){
-        System.out.println(x+y);
-    }
+     static int x =10;
+     static int y = 5;
+   
+    //  static  int c = x+y;
+     static void m1(){
+        System.out.println(x +" "+ y);
+    } 
     public static void main(String[] args) {
-        Demo demo1 = new Demo();
-        demo1.m1(5,6);
-        Demo demo2 = new Demo();
-        demo2.m1(5,9);
-        Demo demo3 = new Demo();
-        demo3.m1(3,6);
+       Demo d1 = new Demo();
+       d1.m1();
+
+       Demo d2 = new Demo();
+       d2.m1();
 
     }
 }
