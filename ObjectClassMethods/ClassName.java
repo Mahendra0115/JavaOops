@@ -1,4 +1,4 @@
- class Demo{
+  class Demo{
       public static void main(String[] args) {
         Demo obj1 = new Demo();
         
