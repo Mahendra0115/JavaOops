@@ -7,6 +7,14 @@
     void add(){
          System.out.println("addition is:" + c);
     }
+    public void m1() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'm1'");
+    }
+    public void m2() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'm2'");
+    }
 }
 
 class Child extends Parant{
