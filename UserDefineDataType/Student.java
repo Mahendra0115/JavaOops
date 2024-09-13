@@ -2,7 +2,7 @@
 public class Student {
     private Integer rollNo;
     private String studentName;
-    private Address address;
+    private Address address;// here create own data type 
 
     // getter method 
     public void setRollNo(Integer rollNo) {
